@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px solid black;
+    background: #cafab4;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d68623;
+}
+
+.mainContent {
+    position: relative;
+    top: 45px;
+    float: left;
+    width: 100%;
+    height: 508px;
+}
+
+.detailedContentArea {
+    width: 60%;
+}
+
+.itemsContainer {
+    position: absolute;
+    width: 100%;
+    left: 60%;
+    top: 0;
+    height: 100%;
+    margin: 0px 0px 0px 5px;
+}
+
+.itemDetailsArea {
+    height: 300px;
+    
+}
+
+.votingArea {
+    height: 50px;
+}
+
+.commentsArea {
+    height: 250px;
+}
+
+
