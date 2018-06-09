@@ -29,11 +29,11 @@ div {
 
 .itemsContainer {
     position: absolute;
-    width: 100%;
     left: 60%;
     top: 0;
     height: 100%;
-    margin: 0px 0px 0px 5px;
+    margin-left: 10px;
+    width: 38%;
 }
 
 .itemDetailsArea {
