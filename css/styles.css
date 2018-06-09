@@ -28,13 +28,13 @@ div {
 }
 
 .itemsContainer {
+    width: 38%;
     position: absolute;
     left: 60%;
     top: 0;
     height: 86vh;
-    margin-left: 10px;
-    width: 38%;
-    overflow: scroll;
+    margin-left: 10px;    
+    overflow-y: scroll;
 
 }
 
@@ -49,6 +49,12 @@ div {
 
 .commentsArea {
     height: 150px;
+}
+
+.itemsContainer > ul {
+
+    padding: 0;
+    margin-top: 20px;
 }
 
 ul li {
